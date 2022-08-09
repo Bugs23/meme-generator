@@ -3,8 +3,8 @@ import memesData from "../memesData.js"
 
 function Meme() {
 	const [meme, setMeme] = React.useState({
-		topText: "scsdc",
-		bottomText: "scsc",
+		topText: "",
+		bottomText: "",
 		randomImage: "http://i.imgflip.com/1bij.jpg"
 	})
 
